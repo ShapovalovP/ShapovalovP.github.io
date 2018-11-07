@@ -1,0 +1,10 @@
+{
+  "artist": {
+    "add": "Ajouter",
+    "new": "Nouvel artiste",
+    "spectacle":"Spectacles",
+    "home": "Accueil",
+    "name": "Musique préférée",
+    "albums": "Albums"
+  }
+}
