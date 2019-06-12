@@ -1087,7 +1087,7 @@ var YoutubbService = /** @class */ (function () {
     }
     YoutubbService.prototype.LoadYtubUrl = function (nomArtist, nomChanson) {
         var _this = this;
-        return this.http.get('https://www.googleapis.com/youtube/v3/search?part=id&maxResults=1&key=AIzaSyDSj4abOIGe2R36DkhBYsuJVfJHuq_2i0w=' + nomChanson + '%20' + nomArtist)
+        return this.http.get('https://www.googleapis.com/youtube/v3/search?part=id&maxResults=1&key=AIzaSyDMVfcBkTVqhDw2NoU2qj_2GPeWBhR__48&q=' + nomChanson + '%20' + nomArtist)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (rep) { return _this.parsUrl(rep); }));
     };
     YoutubbService.prototype.parsUrl = function (rep) {
